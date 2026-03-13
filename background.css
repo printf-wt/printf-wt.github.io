@@ -1,8 +1,8 @@
 /* From Uiverse.io by bianca-git */ 
 .matrix-container {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background: #000;
   display: flex;
 }
