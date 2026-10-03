@@ -24,11 +24,24 @@
 网站使用 HTML、CSS 和少量原生 JavaScript，各栏目为独立页面，适配电脑与手机。无需后端、数据库或构建工具，通过 GitHub Pages 发布。
 
 - `index.html`：首页，展示个人简介。
-- `style.css`：全站样式。
-- `site.js`：手机导航菜单交互。
-- `*.png`、`*.pdf`：公开展示的竞赛证书。
-- `wechat-qr.jpg`：联系方式中的微信二维码。
+- `assets/css/style.css`：全站样式。
+- `assets/js/site.js`：手机导航菜单交互。
+- `assets/certificates/`：公开展示的竞赛证书图片与 PDF。
+- `assets/images/wechat-qr.jpg`：联系方式中的微信二维码。
 - `.nojekyll`：让 GitHub Pages 直接发布静态文件。
+
+## 文件组织
+
+| 位置 | 用途 |
+| --- | --- |
+| 根目录的 HTML 文件 | 首页和六个独立栏目 |
+| `assets/css/` | 样式文件 |
+| `assets/js/` | 交互脚本 |
+| `assets/images/` | 网站图片与二维码 |
+| `assets/certificates/` | 已处理隐私信息的证书图片与 PDF |
+| `README.md` | 项目介绍和维护说明 |
+
+新增资源请放入对应目录，再更新页面引用，避免堆在根目录。
 
 ## 本地预览
 
